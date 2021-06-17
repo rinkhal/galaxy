@@ -1,0 +1,20 @@
+[package]
+authors = ["Rajat Sharma <lunasunkaiser@gmail.com>"]
+edition = "2018"
+name = "galaxy"
+version = "0.1.0"
+
+[dependencies]
+handlebars = "*"
+serde_json = "*"
+
+[dependencies.common-rs]
+git = "https://github.com/rajatsharma/common-rs"
+
+[dependencies.reqwest]
+features = ["blocking", "json"]
+version = "0.11.3"
+
+[dependencies.serde]
+features = ["derive"]
+version = "1"
