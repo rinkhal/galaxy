@@ -1,34 +1,26 @@
 # Galaxy
 
-> My Github Stars sorted by language
+> My Github Stars grouped by languages
 
-- [None](#None)
-- [JavaScript](#JavaScript)
 - [TypeScript](#TypeScript)
 - [Java](#Java)
+- [Jupyter Notebook](#Jupyter Notebook)
+- [Python](#Python)
+- [JavaScript](#JavaScript)
+- [Haskell](#Haskell)
+- [PureScript](#PureScript)
+- [Elixir](#Elixir)
 - [C#](#C#)
 - [Go](#Go)
+- [V](#V)
+- [C++](#C++)
+- [Scala](#Scala)
 - [Rust](#Rust)
-- [F#](#F#)
 - [C](#C)
 - [Kotlin](#Kotlin)
-- [Python](#Python)
-- [Haskell](#Haskell)
-- [C++](#C++)
-- [Elixir](#Elixir)
-- [Scala](#Scala)
-- [PureScript](#PureScript)
+- [F#](#F#)
+- [None](#None)
 - [OCaml](#OCaml)
-- [Jupyter Notebook](#Jupyter Notebook)
-- [V](#V)
-
-## None
-- [btc0](https://github.com/bitcoin-0/btc0)
-
-## JavaScript
-- [zx](https://github.com/google/zx)
-- [text-miner](https://github.com/Planeshifter/text-miner)
-- [doesitarm](https://github.com/ThatGuySam/doesitarm)
 
 ## TypeScript
 - [meli](https://github.com/getmeli/meli)
@@ -36,6 +28,30 @@
 ## Java
 - [spring-native](https://github.com/spring-projects-experimental/spring-native)
 - [Signal-Server](https://github.com/signalapp/Signal-Server)
+
+## Jupyter Notebook
+- [crypto-risk-factor-model](https://github.com/sdiehl/crypto-risk-factor-model)
+
+## Python
+- [covid-vaccine-booking](https://github.com/pallupz/covid-vaccine-booking)
+
+## JavaScript
+- [zx](https://github.com/google/zx)
+- [text-miner](https://github.com/Planeshifter/text-miner)
+- [doesitarm](https://github.com/ThatGuySam/doesitarm)
+
+## Haskell
+- [haskup](https://github.com/snoyberg/haskup)
+- [amazonka](https://github.com/brendanhay/amazonka)
+- [tailwind-purs](https://github.com/gillchristian/tailwind-purs)
+
+## PureScript
+- [purescript-argparse-basic](https://github.com/natefaubion/purescript-argparse-basic)
+
+## Elixir
+- [livebook](https://github.com/elixir-nx/livebook)
+- [nx](https://github.com/elixir-nx/nx)
+- [axon](https://github.com/elixir-nx/axon)
 
 ## C#
 - [WeatherTwentyOne](https://github.com/davidortinau/WeatherTwentyOne)
@@ -45,11 +61,19 @@
 - [Neurax](https://github.com/redcode-labs/Neurax)
 - [termenv](https://github.com/muesli/termenv)
 
+## V
+- [ui](https://github.com/vlang/ui)
+- [v](https://github.com/vlang/v)
+
+## C++
+- [wslg](https://github.com/microsoft/wslg)
+
+## Scala
+- [chimney](https://github.com/wix-incubator/chimney)
+- [dotty](https://github.com/lampepfl/dotty)
+
 ## Rust
 - [aliases](https://github.com/sebglazebrook/aliases)
-
-## F#
-- [logary](https://github.com/logary/logary)
 
 ## C
 - [cpufetch](https://github.com/Dr-Noob/cpufetch)
@@ -57,36 +81,12 @@
 ## Kotlin
 - [dgs-framework](https://github.com/Netflix/dgs-framework)
 
-## Python
-- [covid-vaccine-booking](https://github.com/pallupz/covid-vaccine-booking)
+## F#
+- [logary](https://github.com/logary/logary)
 
-## Haskell
-- [haskup](https://github.com/snoyberg/haskup)
-- [amazonka](https://github.com/brendanhay/amazonka)
-- [tailwind-purs](https://github.com/gillchristian/tailwind-purs)
-
-## C++
-- [wslg](https://github.com/microsoft/wslg)
-
-## Elixir
-- [livebook](https://github.com/elixir-nx/livebook)
-- [nx](https://github.com/elixir-nx/nx)
-- [axon](https://github.com/elixir-nx/axon)
-
-## Scala
-- [chimney](https://github.com/wix-incubator/chimney)
-- [dotty](https://github.com/lampepfl/dotty)
-
-## PureScript
-- [purescript-argparse-basic](https://github.com/natefaubion/purescript-argparse-basic)
+## None
+- [btc0](https://github.com/bitcoin-0/btc0)
 
 ## OCaml
 - [caramel](https://github.com/AbstractMachinesLab/caramel)
-
-## Jupyter Notebook
-- [crypto-risk-factor-model](https://github.com/sdiehl/crypto-risk-factor-model)
-
-## V
-- [ui](https://github.com/vlang/ui)
-- [v](https://github.com/vlang/v)
 
