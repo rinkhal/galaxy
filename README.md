@@ -1,69 +1,30 @@
 # Galaxy
 
-> My Github Stars sorted by language
-
+- [PureScript](#PureScript)
 - [None](#None)
-- [JavaScript](#JavaScript)
-- [TypeScript](#TypeScript)
-- [Java](#Java)
-- [C#](#C#)
-- [Go](#Go)
-- [Rust](#Rust)
-- [F#](#F#)
-- [C](#C)
-- [Kotlin](#Kotlin)
-- [Python](#Python)
-- [Haskell](#Haskell)
 - [C++](#C++)
 - [Elixir](#Elixir)
+- [TypeScript](#TypeScript)
+- [Rust](#Rust)
+- [JavaScript](#JavaScript)
+- [Kotlin](#Kotlin)
+- [F#](#F#)
+- [Haskell](#Haskell)
 - [Scala](#Scala)
-- [PureScript](#PureScript)
+- [C#](#C#)
+- [V](#V)
+- [C](#C)
+- [Java](#Java)
+- [Go](#Go)
 - [OCaml](#OCaml)
 - [Jupyter Notebook](#Jupyter Notebook)
-- [V](#V)
+- [Python](#Python)
+
+## PureScript
+- [purescript-argparse-basic](https://github.com/natefaubion/purescript-argparse-basic)
 
 ## None
 - [btc0](https://github.com/bitcoin-0/btc0)
-
-## JavaScript
-- [zx](https://github.com/google/zx)
-- [text-miner](https://github.com/Planeshifter/text-miner)
-- [doesitarm](https://github.com/ThatGuySam/doesitarm)
-
-## TypeScript
-- [meli](https://github.com/getmeli/meli)
-
-## Java
-- [spring-native](https://github.com/spring-projects-experimental/spring-native)
-- [Signal-Server](https://github.com/signalapp/Signal-Server)
-
-## C#
-- [WeatherTwentyOne](https://github.com/davidortinau/WeatherTwentyOne)
-
-## Go
-- [lipgloss](https://github.com/charmbracelet/lipgloss)
-- [Neurax](https://github.com/redcode-labs/Neurax)
-- [termenv](https://github.com/muesli/termenv)
-
-## Rust
-- [aliases](https://github.com/sebglazebrook/aliases)
-
-## F#
-- [logary](https://github.com/logary/logary)
-
-## C
-- [cpufetch](https://github.com/Dr-Noob/cpufetch)
-
-## Kotlin
-- [dgs-framework](https://github.com/Netflix/dgs-framework)
-
-## Python
-- [covid-vaccine-booking](https://github.com/pallupz/covid-vaccine-booking)
-
-## Haskell
-- [haskup](https://github.com/snoyberg/haskup)
-- [amazonka](https://github.com/brendanhay/amazonka)
-- [tailwind-purs](https://github.com/gillchristian/tailwind-purs)
 
 ## C++
 - [wslg](https://github.com/microsoft/wslg)
@@ -73,12 +34,50 @@
 - [nx](https://github.com/elixir-nx/nx)
 - [axon](https://github.com/elixir-nx/axon)
 
+## TypeScript
+- [meli](https://github.com/getmeli/meli)
+
+## Rust
+- [aliases](https://github.com/sebglazebrook/aliases)
+
+## JavaScript
+- [zx](https://github.com/google/zx)
+- [text-miner](https://github.com/Planeshifter/text-miner)
+- [doesitarm](https://github.com/ThatGuySam/doesitarm)
+
+## Kotlin
+- [dgs-framework](https://github.com/Netflix/dgs-framework)
+
+## F#
+- [logary](https://github.com/logary/logary)
+
+## Haskell
+- [haskup](https://github.com/snoyberg/haskup)
+- [amazonka](https://github.com/brendanhay/amazonka)
+- [tailwind-purs](https://github.com/gillchristian/tailwind-purs)
+
 ## Scala
 - [chimney](https://github.com/wix-incubator/chimney)
 - [dotty](https://github.com/lampepfl/dotty)
 
-## PureScript
-- [purescript-argparse-basic](https://github.com/natefaubion/purescript-argparse-basic)
+## C#
+- [WeatherTwentyOne](https://github.com/davidortinau/WeatherTwentyOne)
+
+## V
+- [ui](https://github.com/vlang/ui)
+- [v](https://github.com/vlang/v)
+
+## C
+- [cpufetch](https://github.com/Dr-Noob/cpufetch)
+
+## Java
+- [spring-native](https://github.com/spring-projects-experimental/spring-native)
+- [Signal-Server](https://github.com/signalapp/Signal-Server)
+
+## Go
+- [lipgloss](https://github.com/charmbracelet/lipgloss)
+- [Neurax](https://github.com/redcode-labs/Neurax)
+- [termenv](https://github.com/muesli/termenv)
 
 ## OCaml
 - [caramel](https://github.com/AbstractMachinesLab/caramel)
@@ -86,7 +85,6 @@
 ## Jupyter Notebook
 - [crypto-risk-factor-model](https://github.com/sdiehl/crypto-risk-factor-model)
 
-## V
-- [ui](https://github.com/vlang/ui)
-- [v](https://github.com/vlang/v)
+## Python
+- [covid-vaccine-booking](https://github.com/pallupz/covid-vaccine-booking)
 
