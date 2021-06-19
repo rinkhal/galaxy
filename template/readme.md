@@ -1,5 +1,7 @@
 # Galaxy
 
+> My Github Stars grouped by languages
+
 {{#each languages as |lang|}}
 - [{{lang.name}}](#{{lang.name}})
 {{/each}}

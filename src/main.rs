@@ -1,12 +1,14 @@
-use std::{collections::HashMap, fs::File};
+mod group_by;
+use std::fs::File;
 
 use common_rs::Result;
+use group_by::GroupBy;
 use handlebars::Handlebars;
 use reqwest::blocking::*;
 use serde::{Deserialize, Serialize};
 use serde_json::json;
 
-#[derive(Debug, Serialize, Deserialize)]
+#[derive(Clone, Debug, Serialize, Deserialize)]
 struct Star {
     name: String,
     html_url: String,
@@ -25,14 +27,10 @@ fn main() -> Result<()> {
         .json::<Vec<Star>>()?;
 
     let mut languages = vec![];
-    let mut language_map: HashMap<String, Vec<Star>> = HashMap::new();
 
-    stars.into_iter().for_each(|star| {
-        let group = language_map
-            .entry(star.language.clone().unwrap_or_else(|| "None".into()))
-            .or_insert_with(Vec::new);
-        group.push(star);
-    });
+    let language_map = stars
+        .iter()
+        .group_by(|star| star.language.unwrap_or_else(|| "None".into()));
 
     language_map
         .into_iter()
