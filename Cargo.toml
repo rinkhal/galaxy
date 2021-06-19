@@ -6,6 +6,7 @@ version = "0.1.0"
 
 [dependencies]
 handlebars = "*"
+group-by = { git = "https://github.com/rajatsharma/group-by" }
 serde_json = "*"
 
 [dependencies.common-rs]

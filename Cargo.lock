@@ -215,6 +215,7 @@ name = "galaxy"
 version = "0.1.0"
 dependencies = [
  "common-rs",
+ "group-by",
  "handlebars",
  "reqwest",
  "serde",
@@ -240,6 +241,11 @@ dependencies = [
  "libc",
  "wasi",
 ]
+
+[[package]]
+name = "group-by"
+version = "0.1.0"
+source = "git+https://github.com/rajatsharma/group-by#42112b95c32ff5759e55cec3cbdfd874809f5817"
 
 [[package]]
 name = "h2"

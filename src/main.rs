@@ -1,4 +1,3 @@
-mod group_by;
 use std::fs::File;
 
 use common_rs::Result;
