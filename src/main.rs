@@ -6,6 +6,7 @@ use handlebars::Handlebars;
 use reqwest::blocking::*;
 use serde::{Deserialize, Serialize};
 use serde_json::json;
+use std::env;
 
 #[derive(Clone, Debug, Serialize, Deserialize)]
 struct Star {
@@ -14,16 +15,31 @@ struct Star {
     language: Option<String>,
 }
 
-fn main() -> Result<()> {
+fn fetch_stars(stars: Vec<Vec<Star>>) -> Result<Vec<Star>> {
+    println!("{}", stars.len());
+
+    if !stars.is_empty() && stars.len() * 100 == stars.concat().len() {
+        return Ok(stars.concat());
+    }
+
+    let github_token = env::var("GITHUB_TOKEN")?;
     let client = Client::builder().build()?;
-    let stars = client
-        .get("https://api.github.com/users/rajatsharma/starred")
+
+    let new_stars = client
+        .get("https://api.github.com/users/rajatsharma/starred?per_page=100")
         .header(
             "user-agent",
             "Mozilla/5.0 (X11; Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36"
         )
+        .header("Authorization", format!("token {}", github_token))
         .send()?
         .json::<Vec<Star>>()?;
+
+    fetch_stars([&stars[..], &[new_stars][..]].concat())
+}
+
+fn main() -> Result<()> {
+    let stars = fetch_stars(vec![])?;
 
     let mut languages = vec![];
 
