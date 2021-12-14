@@ -16,8 +16,6 @@ struct Star {
 }
 
 fn fetch_stars(stars: Vec<Vec<Star>>) -> Result<Vec<Star>> {
-    println!("{}", stars.len());
-
     if !stars.is_empty() && stars.len() * 100 == stars.concat().len() {
         return Ok(stars.concat());
     }
