@@ -10,7 +10,7 @@ group-by = { git = "https://github.com/rajatsharma/group-by" }
 serde_json = "*"
 
 [dependencies.common-rs]
-git = "https://github.com/rajatsharma/common-rs"
+git = "https://rajatsharma@github.com/rajatsharma/common-rs"
 
 [dependencies.reqwest]
 features = ["blocking", "json"]
