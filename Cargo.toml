@@ -19,3 +19,6 @@ version = "0.11.3"
 [dependencies.serde]
 features = ["derive"]
 version = "1"
+
+[net]
+git-fetch-with-cli = true
